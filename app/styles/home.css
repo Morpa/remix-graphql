@@ -1,0 +1,15 @@
+.home__title {
+  font-size: 32px;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.home__grid {
+  display: grid;
+  max-width: 1200px;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 32px;
+  padding-bottom: 64px;
+  align-items: center;
+}

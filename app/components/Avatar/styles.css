@@ -1,0 +1,14 @@
+.avatar__main {
+  margin: auto;
+  max-width: 300px;
+}
+
+.avatar__image {
+  border-radius: 50%;
+}
+
+.avatar__title {
+  font-size: 18px;
+  margin-top: 8px;
+  text-align: center;
+}
