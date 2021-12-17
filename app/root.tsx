@@ -6,24 +6,19 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch
-} from "remix";
-import type { LinksFunction } from "remix";
+} from 'remix'
+import type { LinksFunction } from 'remix'
 
-import styles from "~/styles/global.css";
-import stylesAvatar from "~/components/Avatar/styles.css";
+import styles from '~/styles/global.css'
 
-export let links: LinksFunction = () => {
+export const links: LinksFunction = () => {
   return [
     {
-      rel: "stylesheet",
+      rel: 'stylesheet',
       href: styles
-    },
-    {
-      rel: "stylesheet",
-      href: stylesAvatar
     }
-  ];
-};
+  ]
+}
 
 export default function App() {
   return (
@@ -32,15 +27,15 @@ export default function App() {
         <Outlet />
       </Layout>
     </Document>
-  );
+  )
 }
 
 export function ErrorBoundary({ error }: { error: Error }) {
-  console.error(error);
+  console.error(error)
   return (
     <Document title="Error!">
       <Layout>
-        <div>
+        <div className="error">
           <h1>There was an error</h1>
           <p>{error.message}</p>
           <hr />
@@ -51,51 +46,53 @@ export function ErrorBoundary({ error }: { error: Error }) {
         </div>
       </Layout>
     </Document>
-  );
+  )
 }
 
 export function CatchBoundary() {
-  let caught = useCatch();
-  console.error(caught);
+  const caught = useCatch()
+  console.error(caught)
 
-  let message;
+  let message
   switch (caught.status) {
     case 401:
       message = (
-        <p className='error'>
+        <p className="error">
           Oops! Looks like you tried to visit a page that you do not have access
           to.
         </p>
-      );
-      break;
+      )
+      break
     case 404:
       message = (
-        <p className='error'>Oops! Looks like you tried to visit a page that does not exist.</p>
-      );
-      break;
+        <p className="error">
+          Oops! Looks like you tried to visit a page that does not exist.
+        </p>
+      )
+      break
 
     default:
-      throw new Error(caught.data || caught.statusText);
+      throw new Error(caught.data || caught.statusText)
   }
 
   return (
     <Document title={`${caught.statusText}`}>
       <Layout>
-        <h1>
+        <h1 className="error">
           {caught.status}: {caught.statusText}
         </h1>
         {message}
       </Layout>
     </Document>
-  );
+  )
 }
 
 function Document({
   children,
   title
 }: {
-  children: React.ReactNode;
-  title?: string;
+  children: React.ReactNode
+  title?: string
 }) {
   return (
     <html lang="en">
@@ -110,16 +107,12 @@ function Document({
         {children}
         <ScrollRestoration />
         <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />}
+        {process.env.NODE_ENV === 'development' && <LiveReload />}
       </body>
     </html>
-  );
+  )
 }
 
 function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <>
-      {children}
-    </>
-  );
+  return <>{children}</>
 }

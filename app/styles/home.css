@@ -1,3 +1,10 @@
+.home__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .home__title {
   font-size: 32px;
   text-align: center;
@@ -12,4 +19,38 @@
   grid-gap: 32px;
   padding-bottom: 64px;
   align-items: center;
+}
+
+button {
+  border: 2px solid black;
+	padding: 30px 50px;
+	color: black;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-size: 24px;
+	transition: all .5s;
+  margin-bottom: 16px;
+}
+
+button:before{
+  width: 100%;
+  height: 100%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top:  -100%;
+  left: -100%;
+  background: #ade1e2;
+  transition: all .5s;
+  z-index: -1;
+}
+
+button:hover{
+  color: #c1c1c1;
+}
+
+button:hover:before{
+  top: 0;
+  left: 0;
 }

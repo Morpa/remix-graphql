@@ -1,19 +1,31 @@
-# Welcome to Remix!
+<h1 align="center">Remix + Graphql</h1>
 
-- [Remix Docs](https://remix.run/docs)
+<p align="center">
+  <img alt="Made by" src="https://img.shields.io/badge/made%20by-Morpa%20-%2356BEB8">
 
-## Deployment
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/morpa/remix-graphql.svg?color=56BEB8">
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/morpa/remix-graphql.svg?color=56BEB8">
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Morpa/remix-graphql?color=56BEB8">
 
-```sh
-npm i -g vercel
-vercel
-```
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Morpa/remix-graphql?color=56BEB8">
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Morpa/remix-graphql?color=56BEB8">
+</p>
+
+This is a very simple app made with [Remix](https://remix.run/) and [GraphQL Request](https://github.com/prisma-labs/graphql-request) to consume data from Rick and Morty GraphQL API.
+
+## What is inside?
+
+This project uses lot of stuff as:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Remix](https://remix.run/)
+- [GraphQL Request](https://github.com/prisma-labs/graphql-request)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
 
 ## Development
 
@@ -30,5 +42,3 @@ npm run dev
 ```
 
 Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
-
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
