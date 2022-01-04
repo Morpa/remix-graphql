@@ -1175,22 +1175,23 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@remix-run/dev@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.0.6.tgz#7436c74dcfb51109fac5fc748671bc5608c7c918"
-  integrity sha512-DlF8Km9V3jTsJwLPLIwf9Z49HycPBO1lHVHxPVpKH8XSXwg9r0y9IlLxjp7RhQ5aZQcaneva+tHdQ6ZOX4XqpQ==
+"@remix-run/dev@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.1.1.tgz#bbbb93149c88b5d8e992550c6c6e076dce5f424d"
+  integrity sha512-dkzMVgMzaQUppf2za3kD+izsEK1hLsLQSVtDD3wN7pBMEbWXaEkWb2X2lj3c9yRDArPB7y5+09rm4SUnE4mL6A==
   dependencies:
     cacache "^15.0.5"
     chokidar "^3.5.1"
     esbuild "0.13.14"
+    exit-hook "2.2.1"
     fs-extra "^10.0.0"
     lodash.debounce "^4.0.8"
     meow "^7.1.1"
+    minimatch "^3.0.4"
     pretty-ms "^7.0.1"
     read-package-json-fast "^2.0.2"
     remark-frontmatter "^4.0.0"
     remark-mdx-frontmatter "^1.0.1"
-    signal-exit "^3.0.3"
     ws "^7.4.5"
     xdm "^2.0.0"
 
@@ -3400,6 +3401,11 @@ execa@^5.0.0, execa@^5.1.1:
     onetime "^5.1.2"
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
+
+exit-hook@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-2.2.1.tgz#007b2d92c6428eda2b76e7016a34351586934593"
+  integrity sha512-eNTPlAD67BmP31LDINZ3U7HSF8l57TxOY2PmBJ1shpCvpnxBF93mWCE8YHBnXs8qiUZJc9WDcWIeC3a2HIAMfw==
 
 exit@^0.1.2:
   version "0.1.2"
