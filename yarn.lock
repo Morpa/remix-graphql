@@ -6952,10 +6952,10 @@ remedial@^1.0.7:
   resolved "https://registry.yarnpkg.com/remedial/-/remedial-1.0.8.tgz#a5e4fd52a0e4956adbaf62da63a5a46a78c578a0"
   integrity sha512-/62tYiOe6DzS5BqVsNpH/nkGlX45C/Sp6V+NtiN6JQNS1Viay7cWkazmRkrQrdFj2eshDe96SIQNIoMxqhzBOg==
 
-remix@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/remix/-/remix-1.1.1.tgz#d81c5a2a6ceb94df59f7eeb14a85096b9984b62f"
-  integrity sha512-bo/300CdEAidEwn+r+vouPeZgDd+64Uhs4z0nTv1FRNfzt9NhHVLeJHO1M3EPa55imwGhduIzq3uVDxzz1WE1w==
+remix@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/remix/-/remix-1.2.1.tgz#ccb2484c53a2ff45120417d46e767b3327faad46"
+  integrity sha512-DKq5dj01qziy+VU+tuzG8CjogbraeXntHKDSCWJ6yiCwWqu3NMecKKjAcclsfmn2JRwh/CQ5RFPtr4SFJUJe5w==
   dependencies:
     fs-extra "^10.0.0"
 
