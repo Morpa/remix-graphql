@@ -555,16 +555,16 @@
     escape-string-regexp "^4.0.0"
     rollup-plugin-node-polyfills "^0.2.1"
 
-"@eslint/eslintrc@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.1.0.tgz#583d12dbec5d4f22f333f9669f7d0b7c7815b4d3"
-  integrity sha512-C1DfL7XX4nPqGd6jcP01W9pVM1HYCuUkFk1432D7F0v3JSlUIeOYn9oCoi3eoLZ+iwBSb29BMFxxny0YrrEZqg==
+"@eslint/eslintrc@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.2.2.tgz#4989b9e8c0216747ee7cca314ae73791bb281aae"
+  integrity sha512-lTVWHs7O2hjBFZunXTZYnYqtB9GakA1lnxIf+gKq2nY5gxkkNi/lQvveW6t8gFdOHTg6nG50Xs95PrLqVpcaLg==
   dependencies:
     ajv "^6.12.4"
     debug "^4.3.2"
     espree "^9.3.1"
     globals "^13.9.0"
-    ignore "^4.0.6"
+    ignore "^5.2.0"
     import-fresh "^3.2.1"
     js-yaml "^4.1.0"
     minimatch "^3.0.4"
@@ -1238,12 +1238,12 @@
     node-fetch "^2.6.1"
     source-map-support "^0.5.21"
 
-"@remix-run/node@1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/node/-/node-1.3.2.tgz#c70965932f28b04f3e7ded6596093909202e5321"
-  integrity sha512-a9ia3byEnqV9llW681tUJY6M2YjkUevcJ84QJFJPqlHzEYereb2X41xexxtUpW5ghAlkGsxAe8LguyCptRZZvQ==
+"@remix-run/node@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/node/-/node-1.4.1.tgz#4067b5315893845837f2c901c58c908c20c27b2e"
+  integrity sha512-82nujfiZTt7DyceeTWtKRL0L6QtHZy6WnW0zGFnOW2mjCsG9dA166po8X7026VWTa254BxckJLY9GgF+5957Bw==
   dependencies:
-    "@remix-run/server-runtime" "1.3.2"
+    "@remix-run/server-runtime" "1.4.1"
     "@types/busboy" "^0.3.1"
     "@types/node-fetch" "^2.5.12"
     "@web-std/file" "^3.0.0"
@@ -1297,13 +1297,24 @@
     set-cookie-parser "^2.4.8"
     source-map "^0.7.3"
 
-"@remix-run/vercel@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/vercel/-/vercel-1.3.2.tgz#cdef4e8daad2ada64ecb56e5f910facdb9483776"
-  integrity sha512-hS7iFosQb5wXDuH0UKJreA6sFSCxHp4YRWMdbQZzLrbbTmFqRR35D0nuc6I1fbyD0rYcBjbw1tQHWlH0JiFBzQ==
+"@remix-run/server-runtime@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.4.1.tgz#b3d0635c5f1b851b3b099307f9108c9efe1a9b3c"
+  integrity sha512-vC5+7IZSNbAQEHC0436O3bYl6DpPAguJT0sSoemHE1jwJ1x+hUej3/k1QjIy1T/bioa6/7eHPggnm0hUlIFX1g==
   dependencies:
-    "@remix-run/node" "1.3.2"
-    "@remix-run/server-runtime" "1.3.2"
+    "@types/cookie" "^0.4.0"
+    cookie "^0.4.1"
+    jsesc "^3.0.1"
+    react-router-dom "^6.2.2"
+    set-cookie-parser "^2.4.8"
+    source-map "^0.7.3"
+
+"@remix-run/vercel@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/vercel/-/vercel-1.4.1.tgz#9d9a5f745f6b6631f51b712ddb4a4ed9ab990d9d"
+  integrity sha512-4GdQGWSTw+QWkpxm8n0TcuA0XmVxvVYySJdpGQhmsrp/axCQZ+/rKosGkmjhFDkJeel+teXrM0wp7v3PgyzN3A==
+  dependencies:
+    "@remix-run/node" "1.4.1"
 
 "@rollup/pluginutils@^4.0.0":
   version "4.1.2"
@@ -3493,12 +3504,12 @@ eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@^8.9.0:
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.9.0.tgz#a2a8227a99599adc4342fd9b854cb8d8d6412fdb"
-  integrity sha512-PB09IGwv4F4b0/atrbcMFboF/giawbBLVC7fyDamk5Wtey4Jh2K+rYaBhCAbUyEI4QzB1ly09Uglc9iCtFaG2Q==
+eslint@^8.14.0:
+  version "8.14.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.14.0.tgz#62741f159d9eb4a79695b28ec4989fcdec623239"
+  integrity sha512-3/CE4aJX7LNEiE3i6FeodHmI/38GZtWCsAtsymScmzYapx8q1nVVb+eLcLSzATmCPXw5pT4TqVs1E0OmxAd9tw==
   dependencies:
-    "@eslint/eslintrc" "^1.1.0"
+    "@eslint/eslintrc" "^1.2.2"
     "@humanwhocodes/config-array" "^0.9.2"
     ajv "^6.10.0"
     chalk "^4.0.0"
@@ -4393,11 +4404,6 @@ ieee754@^1.1.13:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
-
-ignore@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
-  integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
 ignore@^5.1.1, ignore@^5.1.8, ignore@^5.2.0:
   version "5.2.0"
