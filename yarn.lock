@@ -1435,13 +1435,13 @@
     "@graphql-codegen/plugin-helpers" "^2.3.2"
     tslib "~2.3.0"
 
-"@graphql-codegen/cli@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.6.0.tgz#bf912cfa2afb920bb82390c6e05e9e598bdbb6cd"
-  integrity sha512-2Bsf2XzwccVJSam8grrAROn3sk5mris8kx4cYEDvBHekEbn6I4xmBDeVjX6y6ajVfyZniJCAZdc7XxRHje8wYg==
+"@graphql-codegen/cli@2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.6.2.tgz#a9aa4656141ee0998cae8c7ad7d0bf9ca8e0c9ae"
+  integrity sha512-UO75msoVgvLEvfjCezM09cQQqp32+mR8Ma1ACsBpr7nroFvHbgcu2ulx1cMovg4sxDBCsvd9Eq/xOOMpARUxtw==
   dependencies:
-    "@graphql-codegen/core" "2.5.0"
-    "@graphql-codegen/plugin-helpers" "^2.4.0"
+    "@graphql-codegen/core" "2.5.1"
+    "@graphql-codegen/plugin-helpers" "^2.4.1"
     "@graphql-tools/apollo-engine-loader" "^7.0.5"
     "@graphql-tools/code-file-loader" "^7.0.6"
     "@graphql-tools/git-loader" "^7.0.5"
@@ -1471,7 +1471,7 @@
     listr "^0.14.3"
     listr-update-renderer "^0.5.0"
     log-symbols "^4.0.0"
-    minimatch "^3.0.4"
+    minimatch "^4.0.0"
     mkdirp "^1.0.4"
     string-env-interpolation "^1.0.1"
     ts-log "^2.2.3"
@@ -1481,20 +1481,20 @@
     yaml "^1.10.0"
     yargs "^17.0.0"
 
-"@graphql-codegen/core@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-2.5.0.tgz#ce33d3211f82e88f05345972d5c62dae29fcd561"
-  integrity sha512-gYu9IKVQYqosw3R8nmnxg3G+JKn1Z2mqurvNF3YJJm27/VR6Ah1Qrl0/ijs5anUzguKrwNgf33OxMDp1YTCdew==
+"@graphql-codegen/core@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-2.5.1.tgz#e3d50d3449b8c58b74ea08e97faf656a1b7fc8a1"
+  integrity sha512-alctBVl2hMnBXDLwkgmnFPrZVIiBDsWJSmxJcM4GKg1PB23+xuov35GE47YAyAhQItE1B1fbYnbb1PtGiDZ4LA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.4.0"
+    "@graphql-codegen/plugin-helpers" "^2.4.1"
     "@graphql-tools/schema" "^8.1.2"
     "@graphql-tools/utils" "^8.1.1"
     tslib "~2.3.0"
 
-"@graphql-codegen/plugin-helpers@^2.3.2", "@graphql-codegen/plugin-helpers@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-2.4.0.tgz#f0dd8f63c2eb9af253586bd93d2492b576aa4a97"
-  integrity sha512-bQ2EwVU34wkTrWM4/LbXS4t+ROYFM3qzwrRX6aFNYwAPho/fubryBHmNuUTh4evACFMx1ymQ6QLnvOUAoXYZSQ==
+"@graphql-codegen/plugin-helpers@^2.3.2", "@graphql-codegen/plugin-helpers@^2.4.0", "@graphql-codegen/plugin-helpers@^2.4.1":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-2.4.2.tgz#e4f6b74dddcf8a9974fef5ce48562ae0980f9fed"
+  integrity sha512-LJNvwAPv/sKtI3RnRDm+nPD+JeOfOuSOS4FFIpQCMUCyMnFcchV/CPTTv7tT12fLUpEg6XjuFfDBvOwndti30Q==
   dependencies:
     "@graphql-tools/utils" "^8.5.2"
     change-case-all "1.0.14"
@@ -1777,14 +1777,14 @@
     value-or-promise "^1.0.11"
     ws "^8.3.0"
 
-"@graphql-tools/utils@8.6.1", "@graphql-tools/utils@^8.1.1", "@graphql-tools/utils@^8.3.0", "@graphql-tools/utils@^8.5.1", "@graphql-tools/utils@^8.5.2", "@graphql-tools/utils@^8.5.3", "@graphql-tools/utils@^8.5.4", "@graphql-tools/utils@^8.6.0":
+"@graphql-tools/utils@8.6.1":
   version "8.6.1"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.6.1.tgz#52c7eb108f2ca2fd01bdba8eef85077ead1bf882"
   integrity sha512-uxcfHCocp4ENoIiovPxUWZEHOnbXqj3ekWc0rm7fUhW93a1xheARNHcNKhwMTR+UKXVJbTFQdGI1Rl5XdyvDBg==
   dependencies:
     tslib "~2.3.0"
 
-"@graphql-tools/utils@8.7.0":
+"@graphql-tools/utils@8.7.0", "@graphql-tools/utils@^8.1.1", "@graphql-tools/utils@^8.3.0", "@graphql-tools/utils@^8.5.1", "@graphql-tools/utils@^8.5.2", "@graphql-tools/utils@^8.5.3", "@graphql-tools/utils@^8.5.4", "@graphql-tools/utils@^8.6.0":
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.7.0.tgz#b46aa632ea61c1d8a43bf3012d695de73a696b3b"
   integrity sha512-71rJZJKJVOMsDlBGFq9gf1PaBbeW0kt8nZWmc50lhxYrCn0rzRY0auGrhhOWhdhZ5WsCWFxpnDurdF5VqB4Iig==
@@ -7562,6 +7562,13 @@ minimatch@^3.0.2, minimatch@^3.0.4, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimatch@^4.0.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-4.2.1.tgz#40d9d511a46bdc4e563c22c3080cde9c0d8299b4"
+  integrity sha512-9Uq1ChtSZO+Mxa/CL1eGizn2vRn3MlLgzhT0Iz8zaY8NdvxvB0d5QdPFmCKf7JKA9Lerx5vRrnwO03jsSfGG9g==
+  dependencies:
+    brace-expansion "^1.1.7"
+
 minimist-options@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/minimist-options/-/minimist-options-4.1.0.tgz#c0655713c53a8a2ebd77ffa247d342c40f010619"
@@ -10343,20 +10350,7 @@ yargs@^15.3.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yargs@^17.0.0:
-  version "17.3.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.3.1.tgz#da56b28f32e2fd45aefb402ed9c26f42be4c07b9"
-  integrity sha512-WUANQeVgjLbNsEmGk20f+nlHgOqzRFpiGWVaBrYGYIGANIIu3lWjoyi0fNlFmJkvfhCZ6BXINe7/W2O2bV4iaA==
-  dependencies:
-    cliui "^7.0.2"
-    escalade "^3.1.1"
-    get-caller-file "^2.0.5"
-    require-directory "^2.1.1"
-    string-width "^4.2.3"
-    y18n "^5.0.5"
-    yargs-parser "^21.0.0"
-
-yargs@^17.3.1:
+yargs@^17.0.0, yargs@^17.3.1:
   version "17.5.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.5.1.tgz#e109900cab6fcb7fd44b1d8249166feb0b36e58e"
   integrity sha512-t6YAJcxDkNX7NFYiVtKvWUz8l+PaKTLiL63mJYWR2GnHq2gjEWISzsLp9wg3aY36dY1j+gfIEL3pIF+XlJJfbA==
