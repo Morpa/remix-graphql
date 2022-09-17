@@ -31,7 +31,7 @@
     "@graphql-codegen/cli": "2.6.3",
     "@graphql-codegen/typescript": "2.5.1",
     "@graphql-codegen/typescript-operations": "2.5.0",
-    "@remix-run/dev": "^1.6.1",
+    "@remix-run/dev": "^1.7.1",
     "@types/node": "^18.7.16",
     "@types/react": "^17.0.41",
     "@types/react-dom": "^18.0.2",
