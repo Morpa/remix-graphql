@@ -34,7 +34,7 @@
     "@remix-run/dev": "^1.6.1",
     "@types/node": "^18.11.3",
     "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.2",
+    "@types/react-dom": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.25.0",
