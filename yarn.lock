@@ -8603,10 +8603,10 @@ remedial@^1.0.7:
   resolved "https://registry.yarnpkg.com/remedial/-/remedial-1.0.8.tgz#a5e4fd52a0e4956adbaf62da63a5a46a78c578a0"
   integrity sha512-/62tYiOe6DzS5BqVsNpH/nkGlX45C/Sp6V+NtiN6JQNS1Viay7cWkazmRkrQrdFj2eshDe96SIQNIoMxqhzBOg==
 
-remix@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/remix/-/remix-1.4.1.tgz#f9f4b4341754b86ed73733621974b50f5a2a3f73"
-  integrity sha512-lv8wqwGVYtFvplc5B9pQH0C17cO/MFrDFNbvaMQ3rDeguu+YYlQvVsDVw2NzXB8ZA6Ad7JxYRT341ADI+LuBCQ==
+remix@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/remix/-/remix-1.11.1.tgz#d146913664ce9ee8e2d3a56946c3784b0a4ca667"
+  integrity sha512-tUoNrDtWeGKrNZ/DsnBJlJj+zpOCFPGcOaCSS9fgqR4E1YMHKAQTCvV+GerE5mghIhspfUjtgQQTDV/CXaaCaQ==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
